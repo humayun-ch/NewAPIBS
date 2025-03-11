@@ -19,8 +19,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         setupSubViews()
-        setupBindings()
-        viewModel.fetchArticles()
+        checkInternetConnection { isConnected in
+            if isConnected {
+                self.setupBindings()
+                self.viewModel.fetchArticles()
+            }else{
+                self.showNoInternetAlert()
+            }
+        }
     }
     
     // MARK: - Setup UI
@@ -71,9 +77,12 @@ class ViewController: UIViewController {
     
     // MARK: - Setup Bindings
     private func setupBindings() {
+        showActivityIndicator()
         viewModel.onDataUpdated = { [weak self] in
+            guard let self = self else { return }
             DispatchQueue.main.async {
-                self?.tableView.reloadData()
+                self.hideActivityIndicator()
+                self.tableView.reloadData()
             }
         }
     }

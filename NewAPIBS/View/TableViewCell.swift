@@ -13,7 +13,7 @@ class NewsTableViewCell: UITableViewCell {
     private let titleLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.boldSystemFont(ofSize: 16)
-        label.numberOfLines = 2
+        label.numberOfLines = 0
         return label
     }()
     
@@ -21,7 +21,7 @@ class NewsTableViewCell: UITableViewCell {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 12)
         label.textColor = .darkGray
-        label.numberOfLines = 3
+        label.numberOfLines = 0
         return label
     }()
     
@@ -38,7 +38,7 @@ class NewsTableViewCell: UITableViewCell {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 10)
         label.textColor = .blue
-        label.numberOfLines = 2
+        label.numberOfLines = 0
         label.lineBreakMode = .byTruncatingMiddle
         return label
     }()
@@ -53,8 +53,8 @@ class NewsTableViewCell: UITableViewCell {
     private let contentLabel: UILabel = {
         let label = UILabel()
         label.font = UIFont.systemFont(ofSize: 12)
-        label.textColor = .yellow
-        label.numberOfLines = 3
+        label.textColor = .darkGray
+        label.numberOfLines = 0
         return label
     }()
     
@@ -81,10 +81,10 @@ class NewsTableViewCell: UITableViewCell {
         newsImageView.translatesAutoresizingMaskIntoConstraints = false
         
         NSLayoutConstraint.activate([
-            stackView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 10),
-            stackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 10),
-            stackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -10),
-            stackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -10),
+            stackView.topAnchor.constraint(equalTo: contentView.topAnchor, constant: 24),
+            stackView.leadingAnchor.constraint(equalTo: contentView.leadingAnchor, constant: 24),
+            stackView.trailingAnchor.constraint(equalTo: contentView.trailingAnchor, constant: -24),
+            stackView.bottomAnchor.constraint(equalTo: contentView.bottomAnchor, constant: -24),
             
             newsImageView.widthAnchor.constraint(equalTo: stackView.widthAnchor),
             newsImageView.heightAnchor.constraint(equalToConstant: 200)

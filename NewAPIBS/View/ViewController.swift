@@ -42,7 +42,7 @@ class ViewController: UIViewController {
         titleLabel.translatesAutoresizingMaskIntoConstraints = false
         
         // Configure Search Bar
-        searchBar.placeholder = "search by– author:"
+        searchBar.placeholder = "Search by– author"
         searchBar.delegate = self
         searchBar.translatesAutoresizingMaskIntoConstraints = false
         

@@ -285,7 +285,7 @@
 		8765DDB92D801EA300CC764F /* Debug_Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "${inherited}";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -301,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = testProject.NewAPIBS;
+				PRODUCT_BUNDLE_IDENTIFIER = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -312,7 +312,7 @@
 		8765DDBA2D801EA300CC764F /* Release_Development */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "${inherited}";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -328,7 +328,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = testProject.NewAPIBS;
+				PRODUCT_BUNDLE_IDENTIFIER = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -338,6 +338,8 @@
 		};
 		8765DDBB2D801EA300CC764F /* Debug_Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 8765DD912D801EA200CC764F /* NewAPIBS */;
+			baseConfigurationReferenceRelativePath = Configuration/Development.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -401,6 +403,8 @@
 		};
 		8765DDBC2D801EA300CC764F /* Release_Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 8765DD912D801EA200CC764F /* NewAPIBS */;
+			baseConfigurationReferenceRelativePath = Configuration/Development.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -529,6 +533,8 @@
 		};
 		8765DDD72D80326900CC764F /* Debug_Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 8765DD912D801EA200CC764F /* NewAPIBS */;
+			baseConfigurationReferenceRelativePath = Configuration/Production.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -593,7 +599,7 @@
 		8765DDD82D80326900CC764F /* Debug_Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "${inherited}";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -609,7 +615,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = testProject.NewAPIBS;
+				PRODUCT_BUNDLE_IDENTIFIER = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -655,6 +661,8 @@
 		};
 		8765DDDB2D80326E00CC764F /* Debug_QA */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 8765DD912D801EA200CC764F /* NewAPIBS */;
+			baseConfigurationReferenceRelativePath = Configuration/QA.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -719,7 +727,7 @@
 		8765DDDC2D80326E00CC764F /* Debug_QA */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "${inherited}";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -735,7 +743,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = testProject.NewAPIBS;
+				PRODUCT_BUNDLE_IDENTIFIER = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -781,6 +789,8 @@
 		};
 		8765DDDF2D80327100CC764F /* Release_Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 8765DD912D801EA200CC764F /* NewAPIBS */;
+			baseConfigurationReferenceRelativePath = Configuration/Production.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -838,7 +848,7 @@
 		8765DDE02D80327100CC764F /* Release_Production */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "${inherited}";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -854,7 +864,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = testProject.NewAPIBS;
+				PRODUCT_BUNDLE_IDENTIFIER = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -900,6 +910,8 @@
 		};
 		8765DDE32D80327500CC764F /* Release_QA */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 8765DD912D801EA200CC764F /* NewAPIBS */;
+			baseConfigurationReferenceRelativePath = Configuration/QA.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -957,7 +969,7 @@
 		8765DDE42D80327500CC764F /* Release_QA */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "${inherited}";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -973,7 +985,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = testProject.NewAPIBS;
+				PRODUCT_BUNDLE_IDENTIFIER = "${inherited}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

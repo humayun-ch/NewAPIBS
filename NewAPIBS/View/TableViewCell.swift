@@ -31,6 +31,8 @@ class NewsTableViewCell: UITableViewCell {
         imageView.clipsToBounds = true
         imageView.layer.cornerRadius = 8
         imageView.backgroundColor = .lightGray
+        imageView.layer.borderColor = UIColor.darkGray.cgColor
+        imageView.layer.borderWidth = 3
         return imageView
     }()
     
